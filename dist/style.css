@@ -1,0 +1,64 @@
+:root {
+  --colour-black: #2e4058;
+  --colour-black-rgb: 46,64,88;
+  --padding: clamp(24px, 5%, 64px);
+  --max-width: 480px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Ubuntu, sans-serif, Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--colour-black);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1.5;
+  padding: var(--padding);
+}
+
+h1 {
+  font-size: 2.25em;
+  margin-top: 0;
+  margin-bottom: 0.8888888889em;
+  line-height: 1.2;
+  vertical-align: baseline;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+p {
+  margin-bottom: 0.75em;
+  margin-top: 0;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+main {
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.box {
+  background-color: rgba(var(--colour-black-rgb), 0.05);
+  padding: 2rem;
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

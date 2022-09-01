@@ -1,0 +1,13 @@
+// layout
+
+main {
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.box {
+  background-color: rgba(var(--colour-black-rgb), .05);
+  padding: 2rem;
+  border-radius: .5em;
+  width: 100%;
+}
