@@ -3,42 +3,58 @@
   --colour-black-rgb: 46,64,88;
   --padding: clamp(24px, 5%, 64px);
   --max-width: 480px;
+  --text-colour: var(--colour-black);
+  --heading-colour: #1c2838;
+  --box-background-colour: #F4F5F6;
+  --background-colour: white;
+}
+:root [data-theme=dark] {
+  --text-colour: #cfcfd3;
+  --heading-colour: #fafaff;
+  --box-background-colour: #1a1a1e;
+  --background-colour: #22232a;
 }
 
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Ubuntu, sans-serif, Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: var(--colour-black);
-  font-size: 16px;
-  display: flex;
   align-items: center;
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+  display: flex;
   flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Ubuntu, sans-serif, Roboto, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
   line-height: 1.5;
   padding: var(--padding);
 }
 
 h1 {
+  color: var(--heading-colour);
   font-size: 2.25em;
-  margin-top: 0;
-  margin-bottom: 0.8888888889em;
-  line-height: 1.2;
-  vertical-align: baseline;
   font-weight: 600;
+  letter-spacing: 1;
+  line-height: 1.2;
+  margin-bottom: 0.8888888889em;
+  margin-top: 0;
+  vertical-align: baseline;
 }
 
 h2 {
-  font-weight: 600;
+  color: var(--heading-colour);
   font-size: 18px;
+  font-weight: 600;
   line-height: 1.2;
-  margin-top: 0;
   margin-bottom: 28px;
+  margin-top: 0;
 }
 
 p {
@@ -55,7 +71,7 @@ main {
 }
 
 .box {
-  background-color: rgba(var(--colour-black-rgb), 0.05);
+  background-color: var(--box-background-colour);
   padding: 2rem;
   border-radius: 0.5em;
   width: 100%;

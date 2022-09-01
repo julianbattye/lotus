@@ -17,13 +17,13 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/app/js/script.js": {
+	"/app/js/dark-mode-switch.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/app/js/script-min.js",
+		"oAP": "/dist/dark-mode-switch.min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -2069,11 +2069,11 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathFilenamePattern": "*.min.js",
+		"autoOutputPathRelativePath": "/dist",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,

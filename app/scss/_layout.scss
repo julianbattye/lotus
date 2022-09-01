@@ -6,8 +6,8 @@ main {
 }
 
 .box {
-  background-color: rgba(var(--colour-black-rgb), .05);
+  background-color: var(--box-background-colour);
   padding: 2rem;
-  border-radius: .5em;
+  border-radius: 0.5em;
   width: 100%;
 }

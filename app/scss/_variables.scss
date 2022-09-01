@@ -5,7 +5,16 @@
   --colour-black-rgb: 46,64,88;
   --padding: clamp(24px, 5%, 64px);
   --max-width: 480px;
+
+  --text-colour: var(--colour-black);
+  --heading-colour: #1c2838;
+  --box-background-colour: #F4F5F6; 
+  --background-colour: white;
+  
+ [data-theme="dark"] {
+    --text-colour: #cfcfd3;
+    --heading-colour: #fafaff;
+    --box-background-colour: #1a1a1e; 
+    --background-colour: #22232a;
+  }
 }
-
-//scss variables
-

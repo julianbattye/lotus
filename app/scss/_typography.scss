@@ -1,24 +1,27 @@
 // typography
 
 h1 {
+  color: var(--heading-colour);
   font-size: 2.25em;
-  margin-top: 0;
-  margin-bottom: 0.8888888888888888em;
-  line-height: 1.2;
-  vertical-align: baseline;
   font-weight: 600;
+  letter-spacing: 1;
+  line-height: 1.2;
+  margin-bottom: 0.8888888888888888em;
+  margin-top: 0;
+  vertical-align: baseline;
 }
 
 h2 {
-  font-weight: 600;
+  color: var(--heading-colour);
   font-size: 18px;
+  font-weight: 600;
   line-height: 1.2;
-  margin-top: 0;
   margin-bottom: 28px;
+  margin-top: 0;
 }
 
 p {
-  margin-bottom: .75em;
+  margin-bottom: 0.75em;
   margin-top: 0;
   &:last-of-type {
     margin-bottom: 0;
