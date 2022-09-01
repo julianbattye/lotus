@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/app/js/script.js": {
 		"bF": 0,
 		"ft": 64,
@@ -131,7 +139,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 683726666.81239295,
-	"displayValue": "oc",
+	"displayValue": "basic-codekit",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ron",
 	"iconImageWasSetByUser": 1
