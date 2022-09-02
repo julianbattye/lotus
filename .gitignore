@@ -22,6 +22,5 @@ node_modules
 .sass-cache
 config.codekit3
 
-
 # folders
 dist/*
