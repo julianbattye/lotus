@@ -3,9 +3,11 @@
 :root {
   --colour-black: #2e4058;
   --colour-black-rgb: 46, 64, 88;
-  --padding: 64px clamp(24px, 5%, 64px);
+  --padding: clamp(24px, 5%, 64px);
   --max-width: 480px;
 
+  --logo-colour: #ee0000;
+  --logo-colour: rgb(0, 199, 255);
   --text-colour: var(--colour-black);
   --link-colour: black;
   --link-underline: rgba(0, 199, 255, 0.7);

@@ -30,14 +30,23 @@ body {
   margin: 0;
   display: flex;
   min-height: 100%;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
-  padding: var(--padding);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0.75em;
+  margin-bottom: 1em;
+  --icon-size: 32px;
 }
 
 section {
   display: flex;
   flex-direction: column;
+  max-width: var(--max-width);
   &.intro {
     flex-direction: row;
     justify-content: space-between;
@@ -45,8 +54,12 @@ section {
 }
 
 main {
+  padding: var(--padding);
   width: 100%;
-  max-width: var(--max-width);
+  height: 100%;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  display: flex;
 }
