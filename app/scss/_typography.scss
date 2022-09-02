@@ -1,5 +1,9 @@
 // typography
 
+h1,h2,h3,p{
+  transition: color .4s ease-out, background-color .4s ease-out;
+}
+
 h1 {
   color: var(--heading-colour);
   font-size: 2.25em;

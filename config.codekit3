@@ -54,6 +54,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/app/scss/_icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/app/scss/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -89,6 +102,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/app/scss/components/_dark-switch.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/_dark-switch.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

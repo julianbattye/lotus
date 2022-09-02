@@ -1,2 +1,16 @@
 // components
 
+section.intro {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: var(--box-background-colour);
+  padding: 2rem;
+  border-radius: 0.5em;
+  width: 100%;
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
+}
+
+@import 'components/dark-switch';
