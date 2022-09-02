@@ -7,6 +7,11 @@ p {
   transition: color 0.4s ease-out, background-color 0.4s ease-out;
 }
 
+h2,
+h3 {
+  // letter-spacing: 0.03em;
+}
+
 h1 {
   color: var(--heading-colour);
   font-size: 2.25em;
@@ -20,7 +25,7 @@ h1 {
 
 h2 {
   color: var(--heading-colour);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 28px;
@@ -33,4 +38,21 @@ p {
   &:last-of-type {
     margin-bottom: 0;
   }
+}
+
+a {
+  color: var(--heading-colour);
+  text-decoration: underline;
+  text-decoration-color: rgba(#0073ff, 0.55);
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+  transition: color 0.4s ease-out, text-decoration-color 0.4s ease-out;
+  &:hover {
+    // color: var(--link-colour);
+    text-decoration-color: rgba(#0073ff, 1);
+  }
+}
+
+ul {
+  margin-top: 0;
 }

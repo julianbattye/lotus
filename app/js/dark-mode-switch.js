@@ -1,14 +1,15 @@
-// https://coliff.github.io/dark-mode-switch/
+// based on https://coliff.github.io/dark-mode-switch/
 
+const userPrefersDark =
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-(function() {
+(function () {
   var darkSwitch = document.getElementById("darkSwitch");
   if (darkSwitch) {
     initTheme();
-    
-    darkSwitch.addEventListener("change", function() {
+
+    darkSwitch.addEventListener("change", function () {
       resetTheme();
     });
     function initTheme() {

@@ -1,13 +1,13 @@
 // css variables
 
-:root
-{
+:root {
   --colour-black: #2e4058;
   --colour-black-rgb: 46, 64, 88;
-  --padding: clamp(24px, 5%, 64px);
+  --padding: 64px clamp(24px, 5%, 64px);
   --max-width: 480px;
 
   --text-colour: var(--colour-black);
+  --link-colour: black;
   --heading-colour: #1c2838;
   --box-background-colour: #f4f5f6;
   --background-colour: white;
@@ -15,6 +15,7 @@
 
   [data-theme="dark"] {
     --text-colour: #cfcfd3;
+    --link-colour: white;
     --heading-colour: #fafaff;
     --box-background-colour: #1a1a1e;
     --background-colour: #22232a;
