@@ -161,6 +161,7 @@ li:last-of-type {
   line-height: 1;
   padding-left: 0.25em;
   user-select: none;
+  min-height: 44px;
   color: var(--heading-colour);
   cursor: default;
 }
