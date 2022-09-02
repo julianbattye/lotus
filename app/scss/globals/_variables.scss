@@ -3,7 +3,7 @@
 :root {
   --colour-black: #2e4058;
   --colour-black-rgb: 46, 64, 88;
-  --padding: clamp(24px, 5%, 64px);
+  --padding: 24px clamp(24px, 5%, 64px) clamp(24px, 5%, 64px);
   --max-width: 480px;
 
   --logo-colour: #ee0000;
