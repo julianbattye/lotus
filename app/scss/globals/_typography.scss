@@ -1,7 +1,10 @@
 // typography
 
-h1,h2,h3,p{
-  transition: color .4s ease-out, background-color .4s ease-out;
+h1,
+h2,
+h3,
+p {
+  transition: color 0.4s ease-out, background-color 0.4s ease-out;
 }
 
 h1 {
@@ -10,7 +13,7 @@ h1 {
   font-weight: 600;
   letter-spacing: 1;
   line-height: 1.2;
-  margin-bottom: 0.8888888888888888em;
+  margin-bottom: 0.8888em;
   margin-top: 0;
   vertical-align: baseline;
 }

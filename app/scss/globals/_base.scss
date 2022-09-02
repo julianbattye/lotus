@@ -13,7 +13,7 @@ html {
 body {
   align-items: center;
   background-color: var(--background-colour);
-  transition: background-color .4s ease-out;
+  transition: background-color 0.4s ease-out;
   color: var(--text-colour);
   display: flex;
   flex-direction: column;
@@ -25,8 +25,16 @@ body {
   padding: var(--padding);
 }
 
-
 section {
   display: flex;
-  flex-direction: column;   
+  flex-direction: column;
+  &.intro {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+main {
+  width: 100%;
+  max-width: var(--max-width);
 }

@@ -1,8 +1,9 @@
-// import scss partials
+// globals
+@import "globals/variables";
+@import "globals/base";
+@import "globals/typography";
 
-@import 'variables';
-@import 'base';
-@import 'typography';
-@import 'layout';
-@import 'icons';
-@import 'components';
+// components
+@import "components/icons";
+@import "components/dark-switch";
+@import "components/box";
