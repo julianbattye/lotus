@@ -1,7 +1,8 @@
-
 .dark-switch {
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 1em;
+  right: 1em;
   margin: 0 0 0 0.5rem;
 
   input.material-symbols-rounded[type="checkbox"] {
@@ -20,7 +21,7 @@
     position: relative;
 
     &::after {
-        content: "";
+      content: "";
       visibility: visible;
       position: absolute;
       border-radius: 24px;
