@@ -38,21 +38,34 @@ p {
   &:last-of-type {
     margin-bottom: 0;
   }
+  s {
+    opacity: 0.5;
+  }
 }
 
 a {
   color: var(--heading-colour);
   text-decoration: underline;
-  text-decoration-color: rgba(#0073ff, 0.55);
+  text-decoration-color: var(--link-underline);
   text-decoration-thickness: 3px;
   text-underline-position: under;
   transition: color 0.4s ease-out, text-decoration-color 0.4s ease-out;
   &:hover {
-    // color: var(--link-colour);
-    text-decoration-color: rgba(#0073ff, 1);
+    text-decoration-color: var(--link-underline-hover);
   }
 }
 
 ul {
   margin-top: 0;
+  margin-bottom: 0.75em;
+  ul {
+    margin-top: 0.5em;
+  }
+}
+
+li {
+  margin-bottom: 0.5em;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }

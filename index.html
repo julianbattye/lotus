@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <div class="dark-switch">
+    <div class="dark-mode-switch">
       <input
         type="checkbox"
         class="form-check-input material-symbols-rounded"
@@ -54,7 +54,21 @@
               >dark mode switch</a
             >.
             <ul>
-              <li>Needs a re-write</li>
+              <li>
+                Not working as intended. Always prioritises dark if device
+                preference set to dark. Local storage should be the priority.
+                Needs a re-write.
+              </li>
+              <li>
+                Intended behaviour is no local storage saved unless toggle
+                clicked.
+              </li>
+              <li>
+                <s>
+                  Idea: auto toggle mode if system preference changes since
+                  toggle clicked.
+                </s>
+              </li>
             </ul>
           </li>
         </ul>

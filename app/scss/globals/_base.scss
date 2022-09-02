@@ -11,6 +11,10 @@ html {
   box-sizing: inherit;
 }
 
+::selection {
+  background-color: var(--selection-background);
+}
+
 body {
   background-color: var(--background-colour);
   transition: background-color 0.4s ease-out;
