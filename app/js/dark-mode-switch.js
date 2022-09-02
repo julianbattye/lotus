@@ -1,16 +1,28 @@
 // https://coliff.github.io/dark-mode-switch/
 
+
+const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
 (function() {
   var darkSwitch = document.getElementById("darkSwitch");
   if (darkSwitch) {
     initTheme();
-    darkSwitch.addEventListener("change", function(event) {
+    
+    darkSwitch.addEventListener("change", function() {
       resetTheme();
     });
     function initTheme() {
-      var darkThemeSelected =
-        localStorage.getItem("darkSwitch") !== null &&
-        localStorage.getItem("darkSwitch") === "dark";
+      var darkThemeSelected = false;
+      var isAlreadyDefined = localStorage.getItem("darkSwitch") !== null;
+      if (isAlreadyDefined === false) {
+        if (userPrefersDark) {
+          darkThemeSelected = true;
+        }
+      } else {
+        darkThemeSelected =
+          localStorage.getItem("darkSwitch") !== null &&
+          localStorage.getItem("darkSwitch") === "dark";
+      }
       darkSwitch.checked = darkThemeSelected;
       darkThemeSelected
         ? document.body.setAttribute("data-theme", "dark")

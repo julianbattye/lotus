@@ -106,6 +106,17 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dist/dark-mode-switch.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/dark-mode-switch.min.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dist/style.css": {
 		"aP": 1,
 		"bl": 0,
